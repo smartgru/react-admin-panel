@@ -1,43 +1,3 @@
-# admin-on-rest [![Build Status](https://travis-ci.org/marmelab/admin-on-rest.svg?branch=master)](https://travis-ci.org/marmelab/admin-on-rest)
-
-A frontend Framework for building admin applications running in the browser on top of REST services, using ES6, [React](https://facebook.github.io/react/) and [Material Design](https://material.io/). Open sourced and maintained by [marmelab](https://marmelab.com/).
-
-[Demo](https://marmelab.com/admin-on-rest-demo/) - [Documentation](https://marmelab.com/admin-on-rest/) - [Releases](https://github.com/marmelab/admin-on-rest/releases) - [Support](http://stackoverflow.com/questions/tagged/admin-on-rest)
-
-[![admin-on-rest-demo](https://marmelab.com/admin-on-rest/img/admin-on-rest-demo-still.png)](https://vimeo.com/205118063)
-
-## Features
-
-* Adapts to any REST backend
-* Complete documentation
-* Optimistic rendering (renders before the server returns)
-* Relationships (many to one, one to many)
-* Internationalization (i18n)
-* Conditional formatting
-* Themeable
-* Supports any authentication provider (REST API, OAuth, Basic Auth, ...)
-* Full-featured Datagrid (sort, pagination, filters)
-* Filter-as-you-type
-* Supports any form layout (simple, tabbed, etc.)
-* Data Validation
-* Custom actions
-* Large library of components for various data types: boolean, number, rich text, etc.
-* WYSIWYG editor
-* Customize dashboard, menu, layout
-* Super easy to extend and override (it's just React components)
-* Highly customizable interface
-* Can connect to multiple backends
-* Leverages the best libraries in the React ecosystem (Redux, redux-form, redux-saga, material-ui, recompose)
-* Can be included in another React app
-* Inspired by the popular [ng-admin](https://github.com/marmelab/ng-admin) library (also by marmelab)
-
-## Versions In This Repository
-
-* [master](https://github.com/marmelab/admin-on-rest/commits/master) - commits that will be included in the next _patch_ release
-
-* [next](https://github.com/marmelab/admin-on-rest/commits/next) - commits that will be included in the next _major_ or _minor_ release
-
-Bugfix PRs that don't break BC should be made against **master**. All other PRs (new features, bugfix with BC break) should be made against **next**.
 
 ## Installation
 
@@ -47,10 +7,6 @@ using:
 ```sh
 npm install --save-dev admin-on-rest
 ```
-
-## Documentation
-
-Read the [Tutorial](http://marmelab.com/admin-on-rest//Tutorial.html) for a 15 minutes introduction. After that, head to the [Documentation](http://marmelab.com/admin-on-rest//index.html), or checkout the [source code of the demo](https://github.com/marmelab/admin-on-rest-demo) for an example usage.
 
 ## At a Glance
 
